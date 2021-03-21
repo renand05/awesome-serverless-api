@@ -21,7 +21,7 @@ export class ApiConstruct extends Construct {
       description: 'Api Handler Dependencies',
     });
 
-    const handler = new Function(this, 'Handler', {
+    const mutantsRestApi = new Function(this, 'Handler', {
       code: Code.fromAsset(resolve(__dirname, '../api/dist'), {
         exclude: ['node_modules'],
       }),
@@ -33,17 +33,18 @@ export class ApiConstruct extends Construct {
         tableName: table.tableName,
       },
     });
-    table.grantReadWriteData(handler);
+    table.grantReadWriteData(mutantsRestApi);
 
-    const api = new LambdaRestApi(this, "hello-api", {
-      restApiName: 'Hello API',
-      handler: handler,
+    const api = new LambdaRestApi(this, "mutants-api", {
+      restApiName: 'Mutants API',
+      handler: mutantsRestApi,
       proxy: false,
     });
 
-    const apiResource = api.root.addResource("hello")
-    apiResource.addMethod("GET", new LambdaIntegration(handler));
-    apiResource.addMethod("POST", new LambdaIntegration(handler));
+    const apiMutantsResource = api.root.addResource("mutants")
+
+    apiMutantsResource.addMethod("GET", new LambdaIntegration(mutantsRestApi));
+    apiMutantsResource.addMethod("POST", new LambdaIntegration(mutantsRestApi));
 
     new CfnOutput(this, "HTTP API URL", {
       value: api.url ?? "Something went wrong with the deploy",

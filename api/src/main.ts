@@ -4,7 +4,7 @@ import { Server } from 'http';
 import { createServer, proxy } from 'aws-serverless-express';
 import { NestFactory } from '@nestjs/core';
 import { ExpressAdapter } from '@nestjs/platform-express';
-import { AppModule } from './mutants/app.module';
+import { AppModule } from './app.module';
 
 let cachedServer: Server;
 
