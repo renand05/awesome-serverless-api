@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+import { MutantsDto } from './mutants.dto';
 
 @Injectable()
 export class MutantsService {
@@ -6,7 +7,8 @@ export class MutantsService {
     return 'Hello World!';
   }
 
-  create(): string {
-    return 'hello from POST';
+  create(mutant: MutantsDto): MutantsDto {
+    // TODO check if dna is mutant
+    return mutant;
   }
 }

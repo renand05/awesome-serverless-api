@@ -1176,14 +1176,19 @@
         "signature": "95b5a3078fdc51508d5d9cde59a1dd9525b53fd42dc12265a55261fd415d3274",
         "affectsGlobalScope": false
       },
+      "../src/mutants/mutants.dto.ts": {
+        "version": "c522573f3f7d13b0b30e4237f2b344032d9915fdb18bd959f284930db64d4ebb",
+        "signature": "3cb206dea1a3c7ff9388aaf3ab4841eae0d04cb6de38d008d07da330bf446c4f",
+        "affectsGlobalScope": false
+      },
       "../src/mutants/mutants.service.ts": {
-        "version": "10a0c94e3e13d4b12e9935e393de325cc3c373d6224614c4007172841458a150",
-        "signature": "f0c4694ee155608c48be131d583fbb0769165daabb5c1acb5b055b25295a7b59",
+        "version": "ded87cc0284c090bbffd99527911d44d0efa108588813e4e5c2f2e0227bd35fe",
+        "signature": "5dd40fde8d6491529407607f4ca76fc1d8f17c7d8a00aa4f02a719c8315faf88",
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.controller.ts": {
-        "version": "18c4b957670284dde95db565bb1e7cc8c61ccf3668bb405b89d29359df963fde",
-        "signature": "f2a6623013fbc8d073f495fa4d329d96fd29ee3d5cf1e23b73611e4acf7df395",
+        "version": "442a9fe9a2db4f4fb2dec74545ffc4e7fbe18a1a61d405e9183b29f82a9cc69f",
+        "signature": "7742dc921d3ff59b5b36c274f00a5925ce4afbdb4a5f7876be666614073d3062",
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.module.ts": {
@@ -3432,6 +3437,7 @@
       ],
       "../src/mutants/mutants.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../src/mutants/mutants.dto.ts",
         "../src/mutants/mutants.service.ts"
       ],
       "../src/mutants/mutants.module.ts": [
@@ -3440,7 +3446,8 @@
         "../src/mutants/mutants.service.ts"
       ],
       "../src/mutants/mutants.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/mutants/mutants.dto.ts"
       ],
       "../src/stats/stats.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
@@ -4840,7 +4847,11 @@
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../src/mutants/mutants.controller.ts": [
+        "../src/mutants/mutants.dto.ts",
         "../src/mutants/mutants.service.ts"
+      ],
+      "../src/mutants/mutants.service.ts": [
+        "../src/mutants/mutants.dto.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -5242,6 +5253,7 @@
       "../src/app.module.ts",
       "../src/main.ts",
       "../src/mutants/mutants.controller.ts",
+      "../src/mutants/mutants.dto.ts",
       "../src/mutants/mutants.module.ts",
       "../src/mutants/mutants.service.ts",
       "../src/stats/stats.controller.ts",
