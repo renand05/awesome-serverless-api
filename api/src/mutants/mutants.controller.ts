@@ -11,7 +11,7 @@ export class MutantsController {
   }
 
   @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  get(): string {
+    return this.appService.get();
   }
 }

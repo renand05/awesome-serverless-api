@@ -2,8 +2,8 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { MutantsController } from './mutants.controller';
 import { MutantsService } from './mutants.service';
 
-describe('AppController', () => {
-  let appController: MutantsController;
+describe('MutantsController', () => {
+  let mutantsController: MutantsController;
 
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
@@ -11,12 +11,15 @@ describe('AppController', () => {
       providers: [MutantsService],
     }).compile();
 
-    appController = app.get<MutantsController>(MutantsController);
+    mutantsController = app.get<MutantsController>(MutantsController);
   });
 
   describe('root', () => {
     it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+      expect(mutantsController.get()).toBe('Hello World!');
+    });
+    it('should return "hello from POST"', () => {
+      expect(mutantsController.create()).toBe('hello from POST');
     });
   });
 });

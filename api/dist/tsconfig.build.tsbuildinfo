@@ -1177,17 +1177,22 @@
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.service.ts": {
-        "version": "ee99e1286d86908c3e442e1cc8ba634e107bb05e64791f08682f4b0dbaad9ea5",
-        "signature": "9bf315ba897ca6ba0ea6d3298abfad08962897439db8b12af5fa350358bff5d7",
+        "version": "10a0c94e3e13d4b12e9935e393de325cc3c373d6224614c4007172841458a150",
+        "signature": "f0c4694ee155608c48be131d583fbb0769165daabb5c1acb5b055b25295a7b59",
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.controller.ts": {
-        "version": "04c4adfa7ac75cda32cd6b1ddd08a2bc0574bcdbfe706f7696bcac43ee3e36a3",
-        "signature": "66a633951c5626e4042e8b49722b13f64de45eb5d52185f7ac8426cfea175eb6",
+        "version": "d0ac2940379b187c286f64cfe61b5801a4f12ded3b096408a220355c5045b80f",
+        "signature": "b83f434286951863c8f72fd53a6e52cf6faf7bcbb66cb44adaada351db526822",
+        "affectsGlobalScope": false
+      },
+      "../src/mutants/mutants.module.ts": {
+        "version": "aad38097f99481a4ab269e9a1248ddfa1bd4227610470601467042e28cc469cc",
+        "signature": "36491ea43e195b70b7b507ac15a5d15fd87d40843e5319ffd7247efaba21ad76",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "25277a7b825d3e6716d51ccfe0181d4f055bf932c03c50ee098bc3879be802b1",
+        "version": "dc70b26f460e127c9f7173046543990ee9dbbd4f66b4c1e1445bb81fd94de851",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -3416,8 +3421,7 @@
       ],
       "../src/app.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/mutants/mutants.controller.ts",
-        "../src/mutants/mutants.service.ts"
+        "../src/mutants/mutants.module.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -3428,6 +3432,11 @@
       ],
       "../src/mutants/mutants.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../src/mutants/mutants.service.ts"
+      ],
+      "../src/mutants/mutants.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/mutants/mutants.controller.ts",
         "../src/mutants/mutants.service.ts"
       ],
       "../src/mutants/mutants.service.ts": [
@@ -5233,6 +5242,7 @@
       "../src/app.module.ts",
       "../src/main.ts",
       "../src/mutants/mutants.controller.ts",
+      "../src/mutants/mutants.module.ts",
       "../src/mutants/mutants.service.ts",
       "../src/stats/stats.controller.ts",
       "../../node_modules/@types/color-name/index.d.ts"
