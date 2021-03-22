@@ -3,15 +3,15 @@ import { MutantsService } from './mutants.service';
 
 @Controller('mutants')
 export class MutantsController {
-  constructor(private readonly appService: MutantsService) { }
+  constructor(private readonly mutantService: MutantsService) { }
 
   @Post()
   create(): string {
-    return this.appService.create();
+    return this.mutantService.create();
   }
 
   @Get()
   get(): string {
-    return this.appService.get();
+    return this.mutantService.get();
   }
 }

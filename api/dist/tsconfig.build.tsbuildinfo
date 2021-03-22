@@ -1182,8 +1182,8 @@
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.controller.ts": {
-        "version": "d0ac2940379b187c286f64cfe61b5801a4f12ded3b096408a220355c5045b80f",
-        "signature": "b83f434286951863c8f72fd53a6e52cf6faf7bcbb66cb44adaada351db526822",
+        "version": "18c4b957670284dde95db565bb1e7cc8c61ccf3668bb405b89d29359df963fde",
+        "signature": "f2a6623013fbc8d073f495fa4d329d96fd29ee3d5cf1e23b73611e4acf7df395",
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.module.ts": {
