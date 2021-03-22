@@ -1,9 +1,9 @@
 import { Controller, Post, Get } from '@nestjs/common';
-import { AppService } from '../app.service';
+import { MutantsService } from './mutants.service';
 
 @Controller('mutants')
-export class AppController {
-  constructor(private readonly appService: AppService) { }
+export class MutantsController {
+  constructor(private readonly appService: MutantsService) { }
 
   @Post()
   create(): string {

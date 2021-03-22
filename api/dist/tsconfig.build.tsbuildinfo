@@ -1176,18 +1176,18 @@
         "signature": "95b5a3078fdc51508d5d9cde59a1dd9525b53fd42dc12265a55261fd415d3274",
         "affectsGlobalScope": false
       },
-      "../src/app.service.ts": {
-        "version": "fad900bbbbdc96119822673d174e0ca4038a6c0ca1eb5012991c634dea2bb89b",
-        "signature": "ed2d27d6f5f5f9f75c0a8def9ed45a88c7b07c0fde14489c74f5676e130bf2d5",
+      "../src/mutants/mutants.service.ts": {
+        "version": "ee99e1286d86908c3e442e1cc8ba634e107bb05e64791f08682f4b0dbaad9ea5",
+        "signature": "9bf315ba897ca6ba0ea6d3298abfad08962897439db8b12af5fa350358bff5d7",
         "affectsGlobalScope": false
       },
-      "../src/mutants/app.controller.ts": {
-        "version": "80a95fbc0df4c3bd0c1240b185135d2a2ae1b72bfbf7f5195bc147ab49dad04d",
-        "signature": "1cf151df5ae8884730ecae6eb3758f2b586c8976ac3ac255d79acb2bff8d80ca",
+      "../src/mutants/mutants.controller.ts": {
+        "version": "04c4adfa7ac75cda32cd6b1ddd08a2bc0574bcdbfe706f7696bcac43ee3e36a3",
+        "signature": "66a633951c5626e4042e8b49722b13f64de45eb5d52185f7ac8426cfea175eb6",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "02177fb660ce6b621184e7565b1b58e6d736e190902b57e11beda650b4211e2e",
+        "version": "25277a7b825d3e6716d51ccfe0181d4f055bf932c03c50ee098bc3879be802b1",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -3416,11 +3416,8 @@
       ],
       "../src/app.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/app.service.ts",
-        "../src/mutants/app.controller.ts"
-      ],
-      "../src/app.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../src/mutants/mutants.controller.ts",
+        "../src/mutants/mutants.service.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -3429,9 +3426,12 @@
         "../node_modules/@types/node/http.d.ts",
         "../src/app.module.ts"
       ],
-      "../src/mutants/app.controller.ts": [
+      "../src/mutants/mutants.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/app.service.ts"
+        "../src/mutants/mutants.service.ts"
+      ],
+      "../src/mutants/mutants.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
       ],
       "../src/stats/stats.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
@@ -4830,8 +4830,8 @@
       "../node_modules/rxjs/internal/util/pipe.d.ts": [
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../src/mutants/app.controller.ts": [
-        "../src/app.service.ts"
+      "../src/mutants/mutants.controller.ts": [
+        "../src/mutants/mutants.service.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -5231,9 +5231,9 @@
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
-      "../src/app.service.ts",
       "../src/main.ts",
-      "../src/mutants/app.controller.ts",
+      "../src/mutants/mutants.controller.ts",
+      "../src/mutants/mutants.service.ts",
       "../src/stats/stats.controller.ts",
       "../../node_modules/@types/color-name/index.d.ts"
     ]
