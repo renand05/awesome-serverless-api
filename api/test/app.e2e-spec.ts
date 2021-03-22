@@ -22,11 +22,16 @@ describe('AppController (e2e)', () => {
       .expect('Hello World!');
   });
   it('/ (POST)', () => {
-    const body = { 'id': 'test', 'dna': ['1', '2', '3', '4'] }
+    const body = { 'dna': ['1', '2', '3', '4'] };
+    const response = {
+      'id': '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4',
+      'isMutant': true,
+      'dna': ['1', '2', '3', '4']
+    };
     return request(app.getHttpServer())
       .post('/mutants')
       .send(body)
       .expect(201)
-      .expect(body)
+      .expect(response);
   });
 });

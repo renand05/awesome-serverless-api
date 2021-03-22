@@ -1,5 +1,9 @@
+import { createHash } from 'crypto';
 import { Injectable } from '@nestjs/common';
 import { MutantsDto } from './mutants.dto';
+
+const _HASH = createHash('sha256');
+
 
 @Injectable()
 export class MutantsService {
@@ -8,7 +12,10 @@ export class MutantsService {
   }
 
   create(mutant: MutantsDto): MutantsDto {
-    // TODO check if dna is mutant
+    const { dna } = mutant;
+
+    mutant.id = dna.join('').toLowerCase();
+    mutant.isMutant = true;
     return mutant;
   }
 }

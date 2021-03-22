@@ -1177,12 +1177,12 @@
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.dto.ts": {
-        "version": "c522573f3f7d13b0b30e4237f2b344032d9915fdb18bd959f284930db64d4ebb",
-        "signature": "3cb206dea1a3c7ff9388aaf3ab4841eae0d04cb6de38d008d07da330bf446c4f",
+        "version": "02d9bcb80c6b92be50b06a18ad07239bd4a315b984d17d6af01ba38d0a69bf93",
+        "signature": "50993295b785a1de2fb1555b3fe03901295757dbb907b0317d2e82b6e26db27e",
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.service.ts": {
-        "version": "ded87cc0284c090bbffd99527911d44d0efa108588813e4e5c2f2e0227bd35fe",
+        "version": "bbf65f2fefe888825ae92800268a5286ced34a5d9194c05b45d85db23f6f8fe4",
         "signature": "5dd40fde8d6491529407607f4ca76fc1d8f17c7d8a00aa4f02a719c8315faf88",
         "affectsGlobalScope": false
       },
@@ -3447,6 +3447,7 @@
       ],
       "../src/mutants/mutants.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
         "../src/mutants/mutants.dto.ts"
       ],
       "../src/stats/stats.controller.ts": [
