@@ -1177,33 +1177,423 @@
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.dto.ts": {
-        "version": "02d9bcb80c6b92be50b06a18ad07239bd4a315b984d17d6af01ba38d0a69bf93",
-        "signature": "50993295b785a1de2fb1555b3fe03901295757dbb907b0317d2e82b6e26db27e",
+        "version": "9df926a6e84046eae1559807a0fc06346f3b6d7b7a56e7e1c2c31a6ed194372e",
+        "signature": "2d1d945a666773bd2f7b6eeb5ae3027f70fb2ee4356c919f5f4fb98ec2b83899",
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.verification.ts": {
-        "version": "83153ead142a1490ad4347388a0842c15b97cec6f71337d0f792f5f699801435",
+        "version": "1ec591136bbfd58aa6db88d0cbf4d51e3e4e1d3663729e08ba44e8d3a666f9ce",
         "signature": "8290e9b79fd9caacc10d914e318dca92badc4b5d4756b15b43e80824ad5daa60",
         "affectsGlobalScope": false
       },
-      "../src/mutants/mutants.service.ts": {
-        "version": "575fd6a0827309dd6eb059fbdb8cd66a2d7f3772392a0dfb8922f5a54b1415ac",
-        "signature": "c19c8a878ec8d25fdc150e4e61accada0deaa0813a852506136b2581a9d791e9",
+      "../node_modules/@aws-sdk/types/types/abort.d.ts": {
+        "version": "4f1034eac6404cb69bedb8bb04cf246871d1aaebbb99d5617be54f54323464c7",
+        "signature": "4f1034eac6404cb69bedb8bb04cf246871d1aaebbb99d5617be54f54323464c7",
         "affectsGlobalScope": false
       },
-      "../src/mutants/mutants.controller.ts": {
-        "version": "e5d5598b67a81103d288b1c7c4eb7ab1cf9155201e25ed5af0e77aeeef54b2c0",
-        "signature": "273f5d497328f967dcaca4ab7b29318bf7d8116ea2468278dd3ad29a93478515",
+      "../node_modules/@aws-sdk/types/types/logger.d.ts": {
+        "version": "724eb35fdcfa2ad686611b3a8a9d704ad0d478539a8cf0089176e0b8047f7190",
+        "signature": "724eb35fdcfa2ad686611b3a8a9d704ad0d478539a8cf0089176e0b8047f7190",
         "affectsGlobalScope": false
       },
-      "../src/mutants/mutants.module.ts": {
-        "version": "fe8f6630807415748a386c111abe94e9cd407c2172d5dd91a07e643a68093cff",
-        "signature": "36491ea43e195b70b7b507ac15a5d15fd87d40843e5319ffd7247efaba21ad76",
+      "../node_modules/@aws-sdk/types/types/http.d.ts": {
+        "version": "d71be3ec7ca8cf9aaf6a8b68653dd3b7d988678edc120a640fc0307967486cc5",
+        "signature": "d71be3ec7ca8cf9aaf6a8b68653dd3b7d988678edc120a640fc0307967486cc5",
         "affectsGlobalScope": false
       },
-      "../src/app.module.ts": {
-        "version": "dc70b26f460e127c9f7173046543990ee9dbbd4f66b4c1e1445bb81fd94de851",
-        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
+      "../node_modules/@aws-sdk/types/types/response.d.ts": {
+        "version": "2e04271499caec54dea75e7061de06b2549efbe1d652b9bdab2f74fd2572f61f",
+        "signature": "2e04271499caec54dea75e7061de06b2549efbe1d652b9bdab2f74fd2572f61f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/util.d.ts": {
+        "version": "40b990c27c58cf6d4473c9cdc65daf0428cbfca5cf4b072c73a4ad5a4055ea7f",
+        "signature": "40b990c27c58cf6d4473c9cdc65daf0428cbfca5cf4b072c73a4ad5a4055ea7f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/middleware.d.ts": {
+        "version": "0b2fe702dda65d25d5e00ec95fc8952036e7e75870c376abeb2cd2150b0a3bed",
+        "signature": "0b2fe702dda65d25d5e00ec95fc8952036e7e75870c376abeb2cd2150b0a3bed",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/command.d.ts": {
+        "version": "a9367ec48d3b67800c69c890e616337935df67caad5bff99383949af561042a8",
+        "signature": "a9367ec48d3b67800c69c890e616337935df67caad5bff99383949af561042a8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/client.d.ts": {
+        "version": "5c1a8d6754a7cceee2135728e8ce6a4f984966a2d16ff1cbed879f7527d55864",
+        "signature": "5c1a8d6754a7cceee2135728e8ce6a4f984966a2d16ff1cbed879f7527d55864",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/credentials.d.ts": {
+        "version": "a99add785a8a06f19582501ca19e92949f6b840b3f91d880e73582c5efacccde",
+        "signature": "a99add785a8a06f19582501ca19e92949f6b840b3f91d880e73582c5efacccde",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/crypto.d.ts": {
+        "version": "0ea4fc473634888e77d5f655438a4f6435536a9994987d874728ee15d43e624f",
+        "signature": "0ea4fc473634888e77d5f655438a4f6435536a9994987d874728ee15d43e624f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/eventStream.d.ts": {
+        "version": "a604c1ae24a48ccdb36396f49a20677d32722f8fd461dfb47186a5b12fd88d60",
+        "signature": "a604c1ae24a48ccdb36396f49a20677d32722f8fd461dfb47186a5b12fd88d60",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/pagination.d.ts": {
+        "version": "259c58ced9d80f66a61362a8768529a2746a2bc80183cdb04726f610913bb5d5",
+        "signature": "259c58ced9d80f66a61362a8768529a2746a2bc80183cdb04726f610913bb5d5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/transfer.d.ts": {
+        "version": "b14456a54e15ce24ff9e5ad3b70675b104a36eb35886e3ffaae614292c0908c4",
+        "signature": "b14456a54e15ce24ff9e5ad3b70675b104a36eb35886e3ffaae614292c0908c4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/serde.d.ts": {
+        "version": "ed01aa50ff4fdbf0f6857596fc385587d87da4896c7980ea75527e098031c488",
+        "signature": "ed01aa50ff4fdbf0f6857596fc385587d87da4896c7980ea75527e098031c488",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/signature.d.ts": {
+        "version": "8a6c15bfa2a0a9e68005a53fb71b60f3769af0da81001b95e4861310e260b788",
+        "signature": "8a6c15bfa2a0a9e68005a53fb71b60f3769af0da81001b95e4861310e260b788",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/types/types/index.d.ts": {
+        "version": "b38615fc4c828b7f95d7e3d39e5457474e3184b13812327f6ec0e8354c2f6322",
+        "signature": "b38615fc4c828b7f95d7e3d39e5457474e3184b13812327f6ec0e8354c2f6322",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/client.d.ts": {
+        "version": "a03e4cfe2d601439d324f06fdf5a292212942c93b11b6184bac35279acf04adc",
+        "signature": "a03e4cfe2d601439d324f06fdf5a292212942c93b11b6184bac35279acf04adc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/command.d.ts": {
+        "version": "2bb082ffba536b1b02ef29ab5d3e85475e07a36ad320445ab67771f086637009",
+        "signature": "2bb082ffba536b1b02ef29ab5d3e85475e07a36ad320445ab67771f086637009",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/document-type.d.ts": {
+        "version": "ee77c98302e9c18372d76efae0d7f24b254aec4541fdd51a7ec75cdd0f1d4758",
+        "signature": "ee77c98302e9c18372d76efae0d7f24b254aec4541fdd51a7ec75cdd0f1d4758",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/retryable-trait.d.ts": {
+        "version": "c2129aa814ccefc56b1ececb9e5164d0eb74b45cab5b1b438dfa5d20ce961b2e",
+        "signature": "c2129aa814ccefc56b1ececb9e5164d0eb74b45cab5b1b438dfa5d20ce961b2e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/exception.d.ts": {
+        "version": "c6024e4ba1db44ad09dd1239819b700973214973bfee57b914a7eb2df2b1619d",
+        "signature": "c6024e4ba1db44ad09dd1239819b700973214973bfee57b914a7eb2df2b1619d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/extended-encode-uri-component.d.ts": {
+        "version": "4ad326182c068487341311ac12c6a277f313a59914aefcc08beba6c49f2e6ff7",
+        "signature": "4ad326182c068487341311ac12c6a277f313a59914aefcc08beba6c49f2e6ff7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/get-array-if-single-item.d.ts": {
+        "version": "6543bbb0268634d506ba2390a8b2a572995133fff298c05f148d45b278395ec8",
+        "signature": "6543bbb0268634d506ba2390a8b2a572995133fff298c05f148d45b278395ec8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/get-value-from-text-node.d.ts": {
+        "version": "df63fd6feffe490dec868b47b8c5685aa3d67f6a38b0fee06041b18055c721aa",
+        "signature": "df63fd6feffe490dec868b47b8c5685aa3d67f6a38b0fee06041b18055c721aa",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/lazy-json.d.ts": {
+        "version": "70c3f7d09710189ff7e62207efc405b2adde761f445e918f6fd65c744cac977a",
+        "signature": "70c3f7d09710189ff7e62207efc405b2adde761f445e918f6fd65c744cac977a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/date-utils.d.ts": {
+        "version": "817e05ed7e2e9a9230cd2bbf730d3eb8b43782081ea413ce79a52ea1607a269e",
+        "signature": "817e05ed7e2e9a9230cd2bbf730d3eb8b43782081ea413ce79a52ea1607a269e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/split-every.d.ts": {
+        "version": "b2e699380412968cc77a4a5887ec890aecb06d31ca74a83dbb29c4d538d6f8b8",
+        "signature": "b2e699380412968cc77a4a5887ec890aecb06d31ca74a83dbb29c4d538d6f8b8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/constants.d.ts": {
+        "version": "f0dba83012330de335b3ce5dfd1dba0d7659969c7c71e512e9cdbc5e8089ecfb",
+        "signature": "f0dba83012330de335b3ce5dfd1dba0d7659969c7c71e512e9cdbc5e8089ecfb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/sdk-error.d.ts": {
+        "version": "c5098f80d42ace6eea2d76398fa5989e74195baa6f2a35c4863cd3404c07564c",
+        "signature": "c5098f80d42ace6eea2d76398fa5989e74195baa6f2a35c4863cd3404c07564c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/smithy-client/types/index.d.ts": {
+        "version": "05b5cb541ccc6b4419336198a06f655de66b8d8374b047d8fe50f764bf8597af",
+        "signature": "05b5cb541ccc6b4419336198a06f655de66b8d8374b047d8fe50f764bf8597af",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts": {
+        "version": "8af2a1115e56dc6c56afed1b3253c29986d309aec8ee08dfd306f36642c46c2a",
+        "signature": "8af2a1115e56dc6c56afed1b3253c29986d309aec8ee08dfd306f36642c46c2a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchExecuteStatementCommand.d.ts": {
+        "version": "e48c794f851a89111b9bbb23be024d190e9b8a2fe61d5538f5104dfa94a46a6d",
+        "signature": "e48c794f851a89111b9bbb23be024d190e9b8a2fe61d5538f5104dfa94a46a6d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchGetItemCommand.d.ts": {
+        "version": "92c7dee6bb47a7a750f61626ad7d21ca325bdd4188cc6a0a30b2ed2971426f82",
+        "signature": "92c7dee6bb47a7a750f61626ad7d21ca325bdd4188cc6a0a30b2ed2971426f82",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchWriteItemCommand.d.ts": {
+        "version": "e32b4504613e781d1e0705da550bca938563be5faab4e0b9af3cd34fa5b8bcb1",
+        "signature": "e32b4504613e781d1e0705da550bca938563be5faab4e0b9af3cd34fa5b8bcb1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateBackupCommand.d.ts": {
+        "version": "65b2215d217ef92630a30f46e6f683953fa2375af86e43195c2619260e4769b3",
+        "signature": "65b2215d217ef92630a30f46e6f683953fa2375af86e43195c2619260e4769b3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateGlobalTableCommand.d.ts": {
+        "version": "2cb6bdb62a0789e5a23423d314bbadf9b997d4d7bc3110bd8622ec2668ad0cef",
+        "signature": "2cb6bdb62a0789e5a23423d314bbadf9b997d4d7bc3110bd8622ec2668ad0cef",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateTableCommand.d.ts": {
+        "version": "6d2370aafab4638d214252f18d564e416103b4b40d0d87a48fb56987fddaf54f",
+        "signature": "6d2370aafab4638d214252f18d564e416103b4b40d0d87a48fb56987fddaf54f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteBackupCommand.d.ts": {
+        "version": "f295d8c007824dcaa8f43fa42853255f937eacb7ce132599c2011ee61810c67a",
+        "signature": "f295d8c007824dcaa8f43fa42853255f937eacb7ce132599c2011ee61810c67a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteItemCommand.d.ts": {
+        "version": "41e3df898873a4ef50750001e71136519ac26429deb5bbb9d11ee7fe64e07e78",
+        "signature": "41e3df898873a4ef50750001e71136519ac26429deb5bbb9d11ee7fe64e07e78",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteTableCommand.d.ts": {
+        "version": "c1205b6c88c1686edd2e3bd659a6233265f94c315f9aafe1d3630edf80318ccc",
+        "signature": "c1205b6c88c1686edd2e3bd659a6233265f94c315f9aafe1d3630edf80318ccc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeBackupCommand.d.ts": {
+        "version": "df8a8879815695c96c3a98c984010350b9559cf23c729b8a49952b9730b8fd62",
+        "signature": "df8a8879815695c96c3a98c984010350b9559cf23c729b8a49952b9730b8fd62",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContinuousBackupsCommand.d.ts": {
+        "version": "a7e73a07c89a55af2d66e3d111ed1b53ab2279a883bafb42992d0ab95cdb4ecf",
+        "signature": "a7e73a07c89a55af2d66e3d111ed1b53ab2279a883bafb42992d0ab95cdb4ecf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContributorInsightsCommand.d.ts": {
+        "version": "30f4cf3d0d0581703f5e0c69c9981c633dbca8c9265cdbe74a5b1e16c0d98136",
+        "signature": "30f4cf3d0d0581703f5e0c69c9981c633dbca8c9265cdbe74a5b1e16c0d98136",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeEndpointsCommand.d.ts": {
+        "version": "ba870b9b2367ede8448102c973a4344a3abf0c0db2c943bfd3dc792127e91513",
+        "signature": "ba870b9b2367ede8448102c973a4344a3abf0c0db2c943bfd3dc792127e91513",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeExportCommand.d.ts": {
+        "version": "66e13c8695486202351744b57b9e525041a6a844fdefb643e2a3a6ec9f7226eb",
+        "signature": "66e13c8695486202351744b57b9e525041a6a844fdefb643e2a3a6ec9f7226eb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableCommand.d.ts": {
+        "version": "0b19294b9dfc24ac65779f99ce89380e9f13078cacace982b041bcfb3fd91dc7",
+        "signature": "0b19294b9dfc24ac65779f99ce89380e9f13078cacace982b041bcfb3fd91dc7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableSettingsCommand.d.ts": {
+        "version": "9f399fdc21bf253a7ca480d20338535c2a0de02248e4cf8787259c1098803209",
+        "signature": "9f399fdc21bf253a7ca480d20338535c2a0de02248e4cf8787259c1098803209",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeKinesisStreamingDestinationCommand.d.ts": {
+        "version": "1733e2a45477c3715d5b4768dbf58e46ca8a1d323d069a62c534b91fa4379d77",
+        "signature": "1733e2a45477c3715d5b4768dbf58e46ca8a1d323d069a62c534b91fa4379d77",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeLimitsCommand.d.ts": {
+        "version": "4d3e626848ccf84a30661677a15ccfb4d94b765a83da4443252a81b894f1abab",
+        "signature": "4d3e626848ccf84a30661677a15ccfb4d94b765a83da4443252a81b894f1abab",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts": {
+        "version": "fba649573c4d95f669ec36ffd330edc83b67faa42d3ed66bb52ffc0aae14dc9b",
+        "signature": "fba649573c4d95f669ec36ffd330edc83b67faa42d3ed66bb52ffc0aae14dc9b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableReplicaAutoScalingCommand.d.ts": {
+        "version": "6365940e792531588a0f16a2ede22e57f972c3cc8fd160d5ef56a118332076e3",
+        "signature": "6365940e792531588a0f16a2ede22e57f972c3cc8fd160d5ef56a118332076e3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTimeToLiveCommand.d.ts": {
+        "version": "0b11868185d58e364cbb6ee3162d2c9783ce83a2bc9e06cb79228fd08d4fe7e5",
+        "signature": "0b11868185d58e364cbb6ee3162d2c9783ce83a2bc9e06cb79228fd08d4fe7e5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DisableKinesisStreamingDestinationCommand.d.ts": {
+        "version": "7fd1cef4330cc7cdc3c42fa8adcf6ec82e1a68cafd86030f552e878fbd2c7990",
+        "signature": "7fd1cef4330cc7cdc3c42fa8adcf6ec82e1a68cafd86030f552e878fbd2c7990",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/EnableKinesisStreamingDestinationCommand.d.ts": {
+        "version": "fb078b5a7923078c284f6744533892995e3a26bd84f9acd1b6add9e531f8303f",
+        "signature": "fb078b5a7923078c284f6744533892995e3a26bd84f9acd1b6add9e531f8303f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteStatementCommand.d.ts": {
+        "version": "4ed0bb2622b682ed7b21b5fb0649e3cdf5ef8fbdd9abf892a2959076cf794e57",
+        "signature": "4ed0bb2622b682ed7b21b5fb0649e3cdf5ef8fbdd9abf892a2959076cf794e57",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteTransactionCommand.d.ts": {
+        "version": "440100018a4702817d92d68245282aec51c8af36a49258c964153dc09978b1f2",
+        "signature": "440100018a4702817d92d68245282aec51c8af36a49258c964153dc09978b1f2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExportTableToPointInTimeCommand.d.ts": {
+        "version": "8006205e330895c885e9e5067c1c9571ebb392cc2b81863fb0e0956a45d6357e",
+        "signature": "8006205e330895c885e9e5067c1c9571ebb392cc2b81863fb0e0956a45d6357e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/GetItemCommand.d.ts": {
+        "version": "4fbba65ef54b81411ff8586b41e16094e7354f0d64f88a52c53e9c6e8e9501e3",
+        "signature": "4fbba65ef54b81411ff8586b41e16094e7354f0d64f88a52c53e9c6e8e9501e3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListBackupsCommand.d.ts": {
+        "version": "d237ff95a67959b5f563b3ec5632a549ac2554d4ff6393b864cd075f5dc6bba9",
+        "signature": "d237ff95a67959b5f563b3ec5632a549ac2554d4ff6393b864cd075f5dc6bba9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts": {
+        "version": "f7ef94e6175278ab4fa7c127c8bbe7a7bb627a8defa2178259989ae109141756",
+        "signature": "f7ef94e6175278ab4fa7c127c8bbe7a7bb627a8defa2178259989ae109141756",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts": {
+        "version": "15bac2c36c4d98a6dd707a679f1a320c3eea78071976e5743b1df97b67b445cf",
+        "signature": "15bac2c36c4d98a6dd707a679f1a320c3eea78071976e5743b1df97b67b445cf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListGlobalTablesCommand.d.ts": {
+        "version": "26d6444d7c7522ea8cecebdabb308b0c4d68adf63f3d65144aec0e72a56b2615",
+        "signature": "26d6444d7c7522ea8cecebdabb308b0c4d68adf63f3d65144aec0e72a56b2615",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts": {
+        "version": "d1db09ab6233af6352097439584cf4b74640ad1a41593734a0581a743d6decc4",
+        "signature": "d1db09ab6233af6352097439584cf4b74640ad1a41593734a0581a743d6decc4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTagsOfResourceCommand.d.ts": {
+        "version": "694c7d907e54878e6cf489f5e69c7bfb189f54d2df69a17daa2e5d564d25503f",
+        "signature": "694c7d907e54878e6cf489f5e69c7bfb189f54d2df69a17daa2e5d564d25503f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/PutItemCommand.d.ts": {
+        "version": "32afa4e7b621dc2f60375f7ce8c067cadfa2b0e8e563ab821094edc06004c74d",
+        "signature": "32afa4e7b621dc2f60375f7ce8c067cadfa2b0e8e563ab821094edc06004c74d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts": {
+        "version": "2d80f74560e138a90958c170b33b54d346a3ea0bfdce6a8fe0b89d1191f352b7",
+        "signature": "2d80f74560e138a90958c170b33b54d346a3ea0bfdce6a8fe0b89d1191f352b7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableFromBackupCommand.d.ts": {
+        "version": "8daf23ce795dfd66672be05ad6f902c029bab30ddb99c0eda9b7f9be682979e3",
+        "signature": "8daf23ce795dfd66672be05ad6f902c029bab30ddb99c0eda9b7f9be682979e3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableToPointInTimeCommand.d.ts": {
+        "version": "d004c4732087c8632b8ad7de44e4b1257a92e6a444a903f27b152d94c706e578",
+        "signature": "d004c4732087c8632b8ad7de44e4b1257a92e6a444a903f27b152d94c706e578",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts": {
+        "version": "27aad5d54fdb9ac63d6998f882c8f3adc56ed28367939b9c9d2d599f58946fc4",
+        "signature": "27aad5d54fdb9ac63d6998f882c8f3adc56ed28367939b9c9d2d599f58946fc4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/TagResourceCommand.d.ts": {
+        "version": "faf10172c041b3500afb33dca1b701e1843d3e78d3a88d5cae1dcb6b75679089",
+        "signature": "faf10172c041b3500afb33dca1b701e1843d3e78d3a88d5cae1dcb6b75679089",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactGetItemsCommand.d.ts": {
+        "version": "928fe4bbb252369b4cf990005048cc551bdb8a3ae0ff8a3899fc00d8f360506c",
+        "signature": "928fe4bbb252369b4cf990005048cc551bdb8a3ae0ff8a3899fc00d8f360506c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactWriteItemsCommand.d.ts": {
+        "version": "8a18a3055c57c09e5e3241efd558f9a2baf63526d526176cb89250fc7fd0bd38",
+        "signature": "8a18a3055c57c09e5e3241efd558f9a2baf63526d526176cb89250fc7fd0bd38",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UntagResourceCommand.d.ts": {
+        "version": "b0a26d2482676d96fc34888a4bc87dc418375e9e448c46a6fa7cfd3566a4530b",
+        "signature": "b0a26d2482676d96fc34888a4bc87dc418375e9e448c46a6fa7cfd3566a4530b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContinuousBackupsCommand.d.ts": {
+        "version": "fdf77733057b86ad645fd586eef1ddd17ac3ff9e0711d00bb1067c98c0cc2ea5",
+        "signature": "fdf77733057b86ad645fd586eef1ddd17ac3ff9e0711d00bb1067c98c0cc2ea5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContributorInsightsCommand.d.ts": {
+        "version": "623ff4e3a919c7cfda37351269fdc344654d98640548047a09bd9b8692777f04",
+        "signature": "623ff4e3a919c7cfda37351269fdc344654d98640548047a09bd9b8692777f04",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableCommand.d.ts": {
+        "version": "9518b7400bb7ea10f46f151b430ce944030d2929b816bac2f16b5f4c2c412f11",
+        "signature": "9518b7400bb7ea10f46f151b430ce944030d2929b816bac2f16b5f4c2c412f11",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableSettingsCommand.d.ts": {
+        "version": "28a8caebe5a210c103a072e92d5c29f2a544b2dc98a3e8d2ee86a5fd6a0dbee5",
+        "signature": "28a8caebe5a210c103a072e92d5c29f2a544b2dc98a3e8d2ee86a5fd6a0dbee5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateItemCommand.d.ts": {
+        "version": "9eb21dc42cc4eaf807bffd6dd83ee3d04925a867bd52737db63beefe3e49806a",
+        "signature": "9eb21dc42cc4eaf807bffd6dd83ee3d04925a867bd52737db63beefe3e49806a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableCommand.d.ts": {
+        "version": "ea621127d08790e4c4a03302d84e0a0b60d9d49bb6561ffb6a6e53dc0a8b36e7",
+        "signature": "ea621127d08790e4c4a03302d84e0a0b60d9d49bb6561ffb6a6e53dc0a8b36e7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableReplicaAutoScalingCommand.d.ts": {
+        "version": "a912f932c33eb530a4ba0cb2f5eafdc1cd4b6b84b41592fa56999c242bf92035",
+        "signature": "a912f932c33eb530a4ba0cb2f5eafdc1cd4b6b84b41592fa56999c242bf92035",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTimeToLiveCommand.d.ts": {
+        "version": "bc43a19b416a88fc34c168953189c5d94d13a366a11bb702cb9fb1a951d8ad13",
+        "signature": "bc43a19b416a88fc34c168953189c5d94d13a366a11bb702cb9fb1a951d8ad13",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/config-resolver/types/EndpointsConfig.d.ts": {
+        "version": "d77a8559b8e1ddf55a7c1d7316a541e11bc4fdf6e757c0a8e533cf5e2117d411",
+        "signature": "d77a8559b8e1ddf55a7c1d7316a541e11bc4fdf6e757c0a8e533cf5e2117d411",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/globals.d.ts": {
@@ -1434,6 +1824,266 @@
       "../node_modules/@types/node/index.d.ts": {
         "version": "9c4c395e927045b324877acdc4bfb95f128f36bc9f073266a2f0342495075a4f",
         "signature": "9c4c395e927045b324877acdc4bfb95f128f36bc9f073266a2f0342495075a4f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/node-config-provider/types/fromEnv.d.ts": {
+        "version": "559c8c6979e9c6d649b26a0f56f0b6f1080606a0e8ea537a0099537c6b10584c",
+        "signature": "559c8c6979e9c6d649b26a0f56f0b6f1080606a0e8ea537a0099537c6b10584c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/shared-ini-file-loader/types/index.d.ts": {
+        "version": "3b1c4e120e1050d6a4203fcdd82b561d9ce6cbf45d48d3837450a7b78919fd59",
+        "signature": "3b1c4e120e1050d6a4203fcdd82b561d9ce6cbf45d48d3837450a7b78919fd59",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/node-config-provider/types/fromSharedConfigFiles.d.ts": {
+        "version": "667c77aa756d8e4547eb170ccc0f2cb39852130c94eb299491b45008210ae681",
+        "signature": "667c77aa756d8e4547eb170ccc0f2cb39852130c94eb299491b45008210ae681",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/node-config-provider/types/fromStatic.d.ts": {
+        "version": "126c87faf0c84b1326c3863ce2235b6a47dc2e548c3aba754c2d3eed16d7eee8",
+        "signature": "126c87faf0c84b1326c3863ce2235b6a47dc2e548c3aba754c2d3eed16d7eee8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/node-config-provider/types/configLoader.d.ts": {
+        "version": "a63605647d8d06e31298d7e04ede8e4775f9b10c51955de611e7207681a39012",
+        "signature": "a63605647d8d06e31298d7e04ede8e4775f9b10c51955de611e7207681a39012",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/node-config-provider/types/index.d.ts": {
+        "version": "a11288edc8161f664148ea7d56101517e380335f5fa1a94408db86efce025bba",
+        "signature": "a11288edc8161f664148ea7d56101517e380335f5fa1a94408db86efce025bba",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/config-resolver/types/RegionConfig.d.ts": {
+        "version": "cf9c11d4715c052f821b4d8c2bc173360798da6b0f9efb612c3444e09d8f77a3",
+        "signature": "cf9c11d4715c052f821b4d8c2bc173360798da6b0f9efb612c3444e09d8f77a3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/config-resolver/types/index.d.ts": {
+        "version": "68a0f7493543a38e2095bbbbb29d776411d462f90e1d6e4021d42d8a8755ecf2",
+        "signature": "68a0f7493543a38e2095bbbbb29d776411d462f90e1d6e4021d42d8a8755ecf2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-host-header/types/index.d.ts": {
+        "version": "e2a00c799b70ace319d4602261447bd49fa1dab7b66a6e365fb3208d3720301f",
+        "signature": "e2a00c799b70ace319d4602261447bd49fa1dab7b66a6e365fb3208d3720301f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-retry/types/configurations.d.ts": {
+        "version": "40ae6195ea63405ec5ba25e3d6592314f28c04c5631a621daec9ef4cace20a51",
+        "signature": "40ae6195ea63405ec5ba25e3d6592314f28c04c5631a621daec9ef4cace20a51",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-retry/types/retryMiddleware.d.ts": {
+        "version": "cb5d1d79d134a5f61da67c4d391684fb470c0f09863ed72f3c634ae94b734b24",
+        "signature": "cb5d1d79d134a5f61da67c4d391684fb470c0f09863ed72f3c634ae94b734b24",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-retry/types/omitRetryHeadersMiddleware.d.ts": {
+        "version": "c9f3acafe93d87730f0eee0420fc3bad8ef81b39ddbfbf0cbfea203421d15daa",
+        "signature": "c9f3acafe93d87730f0eee0420fc3bad8ef81b39ddbfbf0cbfea203421d15daa",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-retry/types/defaultStrategy.d.ts": {
+        "version": "f9c3f0128bf562ad262624a7aa74b7e21aed1c0848ea11223499910e260dfdbe",
+        "signature": "f9c3f0128bf562ad262624a7aa74b7e21aed1c0848ea11223499910e260dfdbe",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-retry/types/delayDecider.d.ts": {
+        "version": "603bafdacee4c8850ef5820f8642a817a3f0db6f76dda0474bcf3d17c2e15398",
+        "signature": "603bafdacee4c8850ef5820f8642a817a3f0db6f76dda0474bcf3d17c2e15398",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-retry/types/retryDecider.d.ts": {
+        "version": "42fda8b390e7f0c49792764ee056fb76138a3a41ec2558bd9a61d384f48819bc",
+        "signature": "42fda8b390e7f0c49792764ee056fb76138a3a41ec2558bd9a61d384f48819bc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-retry/types/index.d.ts": {
+        "version": "707fea33b3d2f45c8eef687c4b88302052f33dfe640150a06b67f6050fcdd629",
+        "signature": "707fea33b3d2f45c8eef687c4b88302052f33dfe640150a06b67f6050fcdd629",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-signing/types/configurations.d.ts": {
+        "version": "e93de676bbac1f5288f5ca94fc857c0fb022c0503f63218e3e54c264f957b73f",
+        "signature": "e93de676bbac1f5288f5ca94fc857c0fb022c0503f63218e3e54c264f957b73f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-signing/types/middleware.d.ts": {
+        "version": "e729bd56320f8d9a7bfc8cdf24d65c0529073d4abefd994c055b008992ac1ce8",
+        "signature": "e729bd56320f8d9a7bfc8cdf24d65c0529073d4abefd994c055b008992ac1ce8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-signing/types/index.d.ts": {
+        "version": "066be59745757a17fe356cafa61032fdacc68dd2cb6cb5fdd38944a94b195616",
+        "signature": "066be59745757a17fe356cafa61032fdacc68dd2cb6cb5fdd38944a94b195616",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-user-agent/types/configurations.d.ts": {
+        "version": "0d29cded6b490e3c5784e37c23c4f63e7a58fcff7c98f2a61f7d90f22ccc3c20",
+        "signature": "0d29cded6b490e3c5784e37c23c4f63e7a58fcff7c98f2a61f7d90f22ccc3c20",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-user-agent/types/user-agent-middleware.d.ts": {
+        "version": "5159ebb099bc8c5e9a3e7f359614cfcb6f835fb865623ceba91ccc8cbc36fab7",
+        "signature": "5159ebb099bc8c5e9a3e7f359614cfcb6f835fb865623ceba91ccc8cbc36fab7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/middleware-user-agent/types/index.d.ts": {
+        "version": "82b4045609dc0918319f835de4f6cb6a931fd729602292921c443a732a6bb811",
+        "signature": "82b4045609dc0918319f835de4f6cb6a931fd729602292921c443a732a6bb811",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/protocol-http/types/httpResponse.d.ts": {
+        "version": "dd5bab97b9f2d5dec2796fa4ff1b6db7221dfc9158f4e81cf9bcef8750dc32ba",
+        "signature": "dd5bab97b9f2d5dec2796fa4ff1b6db7221dfc9158f4e81cf9bcef8750dc32ba",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/protocol-http/types/httpRequest.d.ts": {
+        "version": "f10a176bcf3a0320f5137c6fc1da2d9b7347f8e2852a0ca5802a0ea9aac2df4c",
+        "signature": "f10a176bcf3a0320f5137c6fc1da2d9b7347f8e2852a0ca5802a0ea9aac2df4c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/protocol-http/types/httpHandler.d.ts": {
+        "version": "1c33a2766d210aa58703a1fb9d51c0c49fb0f98495974847870f2f090df9e52a",
+        "signature": "1c33a2766d210aa58703a1fb9d51c0c49fb0f98495974847870f2f090df9e52a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/protocol-http/types/isValidHostname.d.ts": {
+        "version": "d1f8a829c5e90734bb47a1d1941b8819aeee6e81a2a772c3c0f70b30e3693fa9",
+        "signature": "d1f8a829c5e90734bb47a1d1941b8819aeee6e81a2a772c3c0f70b30e3693fa9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/protocol-http/types/index.d.ts": {
+        "version": "413cb528dd3ba14550e9c10c3f87190aeb9a2359d4a2538972648ee285356af6",
+        "signature": "413cb528dd3ba14550e9c10c3f87190aeb9a2359d4a2538972648ee285356af6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts": {
+        "version": "42e4a22ffdf32c0ac627da5d5d6a9e125c8191b8329cd26d05e433be41dffd7b",
+        "signature": "42e4a22ffdf32c0ac627da5d5d6a9e125c8191b8329cd26d05e433be41dffd7b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDB.d.ts": {
+        "version": "bf127fd6a6c05273c35abbc47c66619d8a08589e223a57ff8f304cb61536b3e0",
+        "signature": "bf127fd6a6c05273c35abbc47c66619d8a08589e223a57ff8f304cb61536b3e0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/util-waiter/types/waiter.d.ts": {
+        "version": "fa2db13a4427c4854f08ad61b5a1831c16758e65cf8d69f2225990ffc48635ea",
+        "signature": "fa2db13a4427c4854f08ad61b5a1831c16758e65cf8d69f2225990ffc48635ea",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/util-waiter/types/createWaiter.d.ts": {
+        "version": "935094dc19b20214f20677d5b871aa34e0e3280e6c852dd57b6a118134a15764",
+        "signature": "935094dc19b20214f20677d5b871aa34e0e3280e6c852dd57b6a118134a15764",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/util-waiter/types/index.d.ts": {
+        "version": "ea99aa2e537966df22f8192e99929ee81719c1cf0b9d9d83d0c6fed53325ccc6",
+        "signature": "ea99aa2e537966df22f8192e99929ee81719c1cf0b9d9d83d0c6fed53325ccc6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableExists.d.ts": {
+        "version": "595baf91decddcd8c94751943065f358d0eb52952db9a50afd3c0fd1ff1b284c",
+        "signature": "595baf91decddcd8c94751943065f358d0eb52952db9a50afd3c0fd1ff1b284c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableNotExists.d.ts": {
+        "version": "c6ef0057ee42bd30f2240c13a2ef208d7c29f6a90d0e0c63c839fcfdf23f1e10",
+        "signature": "c6ef0057ee42bd30f2240c13a2ef208d7c29f6a90d0e0c63c839fcfdf23f1e10",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts": {
+        "version": "e6937b2f032998343b496287ed7431e2dbc0d3abe9cbb5e868a0b81d164ca1cf",
+        "signature": "e6937b2f032998343b496287ed7431e2dbc0d3abe9cbb5e868a0b81d164ca1cf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListContributorInsightsPaginator.d.ts": {
+        "version": "cbe55d5f22913e0a26282124e95dcf9a78f7abda117af5f6170891f487ccd0a5",
+        "signature": "cbe55d5f22913e0a26282124e95dcf9a78f7abda117af5f6170891f487ccd0a5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListExportsPaginator.d.ts": {
+        "version": "1e5dbe5d7aa025b81120df8ca9db6ea35031da05d92c00f5c5b02f6a521c466e",
+        "signature": "1e5dbe5d7aa025b81120df8ca9db6ea35031da05d92c00f5c5b02f6a521c466e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListTablesPaginator.d.ts": {
+        "version": "42067a535808ac289c173e303921093768e6de724b921ed159f65f0035303961",
+        "signature": "42067a535808ac289c173e303921093768e6de724b921ed159f65f0035303961",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/QueryPaginator.d.ts": {
+        "version": "511a4d9d71bdf8f24a1c07d4b70b871fae3f78360464c4a6f9634f6734435a5f",
+        "signature": "511a4d9d71bdf8f24a1c07d4b70b871fae3f78360464c4a6f9634f6734435a5f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ScanPaginator.d.ts": {
+        "version": "02cd6eb59db3d98866c1ad9b46c46e2ea1ddd91aa1d23c9383fd010a77d075ed",
+        "signature": "02cd6eb59db3d98866c1ad9b46c46e2ea1ddd91aa1d23c9383fd010a77d075ed",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/models/index.d.ts": {
+        "version": "72be668a833df00839fc3be968c1f38e0503e7c867de89f2128bcc2883d90aee",
+        "signature": "72be668a833df00839fc3be968c1f38e0503e7c867de89f2128bcc2883d90aee",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts": {
+        "version": "1083eaf33c19e5138eabda14de00df41b4f742eb7d129d2c996de0f4ba7db1fa",
+        "signature": "1083eaf33c19e5138eabda14de00df41b4f742eb7d129d2c996de0f4ba7db1fa",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/util-dynamodb/types/marshall.d.ts": {
+        "version": "2df7d562833450a0a0b5d2e446b67e1e907c23cf321f2cd72d895d7f52e0ff9a",
+        "signature": "2df7d562833450a0a0b5d2e446b67e1e907c23cf321f2cd72d895d7f52e0ff9a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts": {
+        "version": "8e1b223736af9a2ce9c620a524611b265a592844b16d4fdc9baa0c029964ee62",
+        "signature": "8e1b223736af9a2ce9c620a524611b265a592844b16d4fdc9baa0c029964ee62",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/util-dynamodb/types/convertToAttr.d.ts": {
+        "version": "dcd679c1e517243b03d1592edd2a6b03734b6f4bd71cb6b58699db1387b3564a",
+        "signature": "dcd679c1e517243b03d1592edd2a6b03734b6f4bd71cb6b58699db1387b3564a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/util-dynamodb/types/unmarshall.d.ts": {
+        "version": "902db39d17cd5735e7d34902662bb116fecd20fd399b45742a73071c5f6fd14d",
+        "signature": "902db39d17cd5735e7d34902662bb116fecd20fd399b45742a73071c5f6fd14d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/util-dynamodb/types/convertToNative.d.ts": {
+        "version": "14385d150df47cbc0cf288095efd760e2651893d6ba26c727074fbf78e3dd1f0",
+        "signature": "14385d150df47cbc0cf288095efd760e2651893d6ba26c727074fbf78e3dd1f0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@aws-sdk/util-dynamodb/types/index.d.ts": {
+        "version": "13099acd45228f869ae792589979dea708572d2d4e5ff18794e43aeb368ac985",
+        "signature": "13099acd45228f869ae792589979dea708572d2d4e5ff18794e43aeb368ac985",
+        "affectsGlobalScope": false
+      },
+      "../src/mutants/mutants.service.ts": {
+        "version": "20629e75934c1719598dfb7ceb576d847782a6f0069593244c07a0f6726d9c7b",
+        "signature": "c19c8a878ec8d25fdc150e4e61accada0deaa0813a852506136b2581a9d791e9",
+        "affectsGlobalScope": false
+      },
+      "../src/mutants/mutants.controller.ts": {
+        "version": "a783ab5a7f40b3f892ba6e3fa90f41f8a39e34503b5242aa18b59cee11838a0e",
+        "signature": "273f5d497328f967dcaca4ab7b29318bf7d8116ea2468278dd3ad29a93478515",
+        "affectsGlobalScope": false
+      },
+      "../src/mutants/mutants.module.ts": {
+        "version": "c914bc82e0e26fbb928bd76218257d8c00d2582d7cde41b8f02755564d790ae5",
+        "signature": "36491ea43e195b70b7b507ac15a5d15fd87d40843e5319ffd7247efaba21ad76",
+        "affectsGlobalScope": false
+      },
+      "../src/app.module.ts": {
+        "version": "90701f4d53e1a549f2d5b1db8ef9ce4cd05ecbc7b1b774b5700d819b36464f8b",
+        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/range-parser/index.d.ts": {
@@ -1737,7 +2387,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "7f8fa3246c34c96020e3eb4056aefeee0d41dc6ce5b09d1517e4e7c30facc4ea",
+        "version": "edeb4d46191e6fb1f1ee1a55933893af53fc92297bcade0ac3de251ca50d58a5",
         "signature": "b5a372aac09049cfdcb9855adf24b028ad950252046ae045698dd5a446842cab",
         "affectsGlobalScope": false
       },
@@ -2037,6 +2687,751 @@
       "configFilePath": "../tsconfig.build.json"
     },
     "referencedMap": {
+      "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDB.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchGetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchWriteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeEndpointsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeExportCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeLimitsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DisableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/EnableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteTransactionCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExportTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/GetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListGlobalTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTagsOfResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/PutItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableFromBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactGetItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactWriteItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UntagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchGetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchWriteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeEndpointsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeExportCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeLimitsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DisableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/EnableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteTransactionCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExportTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/GetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListGlobalTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTagsOfResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/PutItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableFromBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactGetItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactWriteItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UntagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/config-resolver/types/index.d.ts",
+        "../node_modules/@aws-sdk/middleware-host-header/types/index.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/index.d.ts",
+        "../node_modules/@aws-sdk/middleware-signing/types/index.d.ts",
+        "../node_modules/@aws-sdk/middleware-user-agent/types/index.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/index.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchExecuteStatementCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchGetItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchWriteItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateBackupCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateGlobalTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteBackupCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeBackupCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContinuousBackupsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContributorInsightsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeEndpointsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeExportCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableSettingsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeKinesisStreamingDestinationCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeLimitsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableReplicaAutoScalingCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTimeToLiveCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DisableKinesisStreamingDestinationCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/EnableKinesisStreamingDestinationCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteStatementCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteTransactionCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExportTableToPointInTimeCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/GetItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListBackupsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListGlobalTablesCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTagsOfResourceCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/PutItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableFromBackupCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableToPointInTimeCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/TagResourceCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactGetItemsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactWriteItemsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UntagResourceCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContinuousBackupsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContributorInsightsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableSettingsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableReplicaAutoScalingCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTimeToLiveCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDB.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchGetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchWriteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeEndpointsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeExportCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeLimitsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DisableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/EnableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteTransactionCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExportTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/GetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListGlobalTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTagsOfResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/PutItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableFromBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactGetItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactWriteItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UntagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/index.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListContributorInsightsPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListExportsPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListTablesPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/QueryPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ScanPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableExists.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableNotExists.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/models/index.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDB.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListContributorInsightsPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListExportsPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListTablesPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/QueryPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ScanPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableExists.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/util-waiter/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableNotExists.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/util-waiter/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/config-resolver/types/EndpointsConfig.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/config-resolver/types/RegionConfig.d.ts": [
+        "../node_modules/@aws-sdk/node-config-provider/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/config-resolver/types/index.d.ts": [
+        "../node_modules/@aws-sdk/config-resolver/types/EndpointsConfig.d.ts",
+        "../node_modules/@aws-sdk/config-resolver/types/RegionConfig.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-host-header/types/index.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/configurations.d.ts": [
+        "../node_modules/@aws-sdk/node-config-provider/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/defaultStrategy.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/index.d.ts": [
+        "../node_modules/@aws-sdk/middleware-retry/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/defaultStrategy.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/delayDecider.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/omitRetryHeadersMiddleware.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/retryDecider.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/retryMiddleware.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/omitRetryHeadersMiddleware.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/retryDecider.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/retryMiddleware.d.ts": [
+        "../node_modules/@aws-sdk/middleware-retry/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-signing/types/configurations.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-signing/types/index.d.ts": [
+        "../node_modules/@aws-sdk/middleware-signing/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/middleware-signing/types/middleware.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-signing/types/middleware.d.ts": [
+        "../node_modules/@aws-sdk/middleware-signing/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-user-agent/types/configurations.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-user-agent/types/index.d.ts": [
+        "../node_modules/@aws-sdk/middleware-user-agent/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/middleware-user-agent/types/user-agent-middleware.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-user-agent/types/user-agent-middleware.d.ts": [
+        "../node_modules/@aws-sdk/middleware-user-agent/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/configLoader.d.ts": [
+        "../node_modules/@aws-sdk/node-config-provider/types/fromEnv.d.ts",
+        "../node_modules/@aws-sdk/node-config-provider/types/fromSharedConfigFiles.d.ts",
+        "../node_modules/@aws-sdk/node-config-provider/types/fromStatic.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/fromEnv.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/fromSharedConfigFiles.d.ts": [
+        "../node_modules/@aws-sdk/shared-ini-file-loader/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/fromStatic.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/index.d.ts": [
+        "../node_modules/@aws-sdk/node-config-provider/types/configLoader.d.ts"
+      ],
+      "../node_modules/@aws-sdk/protocol-http/types/httpHandler.d.ts": [
+        "../node_modules/@aws-sdk/protocol-http/types/httpRequest.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/httpResponse.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/protocol-http/types/httpRequest.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/protocol-http/types/httpResponse.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/protocol-http/types/index.d.ts": [
+        "../node_modules/@aws-sdk/protocol-http/types/httpHandler.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/httpRequest.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/httpResponse.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/isValidHostname.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/client.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/command.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/exception.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/retryable-trait.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/index.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/client.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/command.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/constants.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/date-utils.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/document-type.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/exception.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/extended-encode-uri-component.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/get-array-if-single-item.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/get-value-from-text-node.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/lazy-json.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/retryable-trait.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/sdk-error.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/split-every.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/sdk-error.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/exception.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/client.d.ts": [
+        "../node_modules/@aws-sdk/types/types/command.d.ts",
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/command.d.ts": [
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/credentials.d.ts": [
+        "../node_modules/@aws-sdk/types/types/util.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/eventStream.d.ts": [
+        "../node_modules/@aws-sdk/types/types/http.d.ts",
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/http.d.ts": [
+        "../node_modules/@aws-sdk/types/types/abort.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/index.d.ts": [
+        "../node_modules/@aws-sdk/types/types/abort.d.ts",
+        "../node_modules/@aws-sdk/types/types/client.d.ts",
+        "../node_modules/@aws-sdk/types/types/command.d.ts",
+        "../node_modules/@aws-sdk/types/types/credentials.d.ts",
+        "../node_modules/@aws-sdk/types/types/crypto.d.ts",
+        "../node_modules/@aws-sdk/types/types/eventStream.d.ts",
+        "../node_modules/@aws-sdk/types/types/http.d.ts",
+        "../node_modules/@aws-sdk/types/types/logger.d.ts",
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/pagination.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts",
+        "../node_modules/@aws-sdk/types/types/serde.d.ts",
+        "../node_modules/@aws-sdk/types/types/signature.d.ts",
+        "../node_modules/@aws-sdk/types/types/transfer.d.ts",
+        "../node_modules/@aws-sdk/types/types/util.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/middleware.d.ts": [
+        "../node_modules/@aws-sdk/types/types/logger.d.ts",
+        "../node_modules/@aws-sdk/types/types/util.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/pagination.d.ts": [
+        "../node_modules/@aws-sdk/types/types/client.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/serde.d.ts": [
+        "../node_modules/@aws-sdk/types/types/http.d.ts",
+        "../node_modules/@aws-sdk/types/types/transfer.d.ts",
+        "../node_modules/@aws-sdk/types/types/util.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/signature.d.ts": [
+        "../node_modules/@aws-sdk/types/types/http.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/util.d.ts": [
+        "../node_modules/@aws-sdk/types/types/http.d.ts",
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/convertToAttr.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/marshall.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/convertToNative.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/unmarshall.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/index.d.ts": [
+        "../node_modules/@aws-sdk/util-dynamodb/types/convertToAttr.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/convertToNative.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/marshall.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/unmarshall.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/marshall.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/unmarshall.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-waiter/types/createWaiter.d.ts": [
+        "../node_modules/@aws-sdk/util-waiter/types/waiter.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-waiter/types/index.d.ts": [
+        "../node_modules/@aws-sdk/util-waiter/types/createWaiter.d.ts",
+        "../node_modules/@aws-sdk/util-waiter/types/waiter.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-waiter/types/waiter.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
       "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "../node_modules/@babel/types/lib/index.d.ts"
       ],
@@ -3452,6 +4847,8 @@
         "../src/mutants/mutants.verification.ts"
       ],
       "../src/mutants/mutants.service.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/index.d.ts",
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/mutants/mutants.dto.ts",
         "../src/mutants/mutants.verification.ts"
@@ -3464,6 +4861,751 @@
       ]
     },
     "exportedModulesMap": {
+      "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDB.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchGetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchWriteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeEndpointsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeExportCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeLimitsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DisableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/EnableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteTransactionCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExportTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/GetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListGlobalTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTagsOfResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/PutItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableFromBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactGetItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactWriteItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UntagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchGetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchWriteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeEndpointsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeExportCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeLimitsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DisableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/EnableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteTransactionCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExportTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/GetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListGlobalTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTagsOfResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/PutItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableFromBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactGetItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactWriteItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UntagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/config-resolver/types/index.d.ts",
+        "../node_modules/@aws-sdk/middleware-host-header/types/index.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/index.d.ts",
+        "../node_modules/@aws-sdk/middleware-signing/types/index.d.ts",
+        "../node_modules/@aws-sdk/middleware-user-agent/types/index.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/index.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchExecuteStatementCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchGetItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchWriteItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateBackupCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateGlobalTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteBackupCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeBackupCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContinuousBackupsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContributorInsightsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeEndpointsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeExportCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableSettingsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeKinesisStreamingDestinationCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeLimitsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableReplicaAutoScalingCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTimeToLiveCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/DisableKinesisStreamingDestinationCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/EnableKinesisStreamingDestinationCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteStatementCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteTransactionCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExportTableToPointInTimeCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/GetItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListBackupsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListGlobalTablesCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTagsOfResourceCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/PutItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableFromBackupCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableToPointInTimeCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/TagResourceCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactGetItemsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactWriteItemsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UntagResourceCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContinuousBackupsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContributorInsightsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableSettingsCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateItemCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableReplicaAutoScalingCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTimeToLiveCommand.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDB.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchGetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/BatchWriteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/CreateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DeleteTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeEndpointsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeExportCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeLimitsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DisableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/EnableKinesisStreamingDestinationCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteStatementCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExecuteTransactionCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ExportTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/GetItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListGlobalTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTagsOfResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/PutItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableFromBackupCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/RestoreTableToPointInTimeCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactGetItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/TransactWriteItemsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UntagResourceCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContinuousBackupsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateGlobalTableSettingsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateItemCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTableReplicaAutoScalingCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/UpdateTimeToLiveCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/index.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListContributorInsightsPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListExportsPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListTablesPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/QueryPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ScanPaginator.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableExists.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableNotExists.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/models/index.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/models/models_0.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDB.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListContributorInsightsPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListContributorInsightsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListExportsPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListExportsCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ListTablesPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ListTablesCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/QueryPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/QueryCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/pagination/ScanPaginator.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/ScanCommand.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/pagination/Interfaces.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableExists.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/util-waiter/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/client-dynamodb/types/waiters/waitForTableNotExists.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/DynamoDBClient.d.ts",
+        "../node_modules/@aws-sdk/client-dynamodb/types/commands/DescribeTableCommand.d.ts",
+        "../node_modules/@aws-sdk/util-waiter/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/config-resolver/types/EndpointsConfig.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/config-resolver/types/RegionConfig.d.ts": [
+        "../node_modules/@aws-sdk/node-config-provider/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/config-resolver/types/index.d.ts": [
+        "../node_modules/@aws-sdk/config-resolver/types/EndpointsConfig.d.ts",
+        "../node_modules/@aws-sdk/config-resolver/types/RegionConfig.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-host-header/types/index.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/configurations.d.ts": [
+        "../node_modules/@aws-sdk/node-config-provider/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/defaultStrategy.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/index.d.ts": [
+        "../node_modules/@aws-sdk/middleware-retry/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/defaultStrategy.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/delayDecider.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/omitRetryHeadersMiddleware.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/retryDecider.d.ts",
+        "../node_modules/@aws-sdk/middleware-retry/types/retryMiddleware.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/omitRetryHeadersMiddleware.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/retryDecider.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-retry/types/retryMiddleware.d.ts": [
+        "../node_modules/@aws-sdk/middleware-retry/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-signing/types/configurations.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-signing/types/index.d.ts": [
+        "../node_modules/@aws-sdk/middleware-signing/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/middleware-signing/types/middleware.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-signing/types/middleware.d.ts": [
+        "../node_modules/@aws-sdk/middleware-signing/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-user-agent/types/configurations.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-user-agent/types/index.d.ts": [
+        "../node_modules/@aws-sdk/middleware-user-agent/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/middleware-user-agent/types/user-agent-middleware.d.ts"
+      ],
+      "../node_modules/@aws-sdk/middleware-user-agent/types/user-agent-middleware.d.ts": [
+        "../node_modules/@aws-sdk/middleware-user-agent/types/configurations.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/configLoader.d.ts": [
+        "../node_modules/@aws-sdk/node-config-provider/types/fromEnv.d.ts",
+        "../node_modules/@aws-sdk/node-config-provider/types/fromSharedConfigFiles.d.ts",
+        "../node_modules/@aws-sdk/node-config-provider/types/fromStatic.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/fromEnv.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/fromSharedConfigFiles.d.ts": [
+        "../node_modules/@aws-sdk/shared-ini-file-loader/types/index.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/fromStatic.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/node-config-provider/types/index.d.ts": [
+        "../node_modules/@aws-sdk/node-config-provider/types/configLoader.d.ts"
+      ],
+      "../node_modules/@aws-sdk/protocol-http/types/httpHandler.d.ts": [
+        "../node_modules/@aws-sdk/protocol-http/types/httpRequest.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/httpResponse.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/protocol-http/types/httpRequest.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/protocol-http/types/httpResponse.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/protocol-http/types/index.d.ts": [
+        "../node_modules/@aws-sdk/protocol-http/types/httpHandler.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/httpRequest.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/httpResponse.d.ts",
+        "../node_modules/@aws-sdk/protocol-http/types/isValidHostname.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/client.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/command.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/exception.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/retryable-trait.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/index.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/client.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/command.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/constants.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/date-utils.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/document-type.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/exception.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/extended-encode-uri-component.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/get-array-if-single-item.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/get-value-from-text-node.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/lazy-json.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/retryable-trait.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/sdk-error.d.ts",
+        "../node_modules/@aws-sdk/smithy-client/types/split-every.d.ts"
+      ],
+      "../node_modules/@aws-sdk/smithy-client/types/sdk-error.d.ts": [
+        "../node_modules/@aws-sdk/smithy-client/types/exception.d.ts",
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/client.d.ts": [
+        "../node_modules/@aws-sdk/types/types/command.d.ts",
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/command.d.ts": [
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/credentials.d.ts": [
+        "../node_modules/@aws-sdk/types/types/util.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/eventStream.d.ts": [
+        "../node_modules/@aws-sdk/types/types/http.d.ts",
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/http.d.ts": [
+        "../node_modules/@aws-sdk/types/types/abort.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/index.d.ts": [
+        "../node_modules/@aws-sdk/types/types/abort.d.ts",
+        "../node_modules/@aws-sdk/types/types/client.d.ts",
+        "../node_modules/@aws-sdk/types/types/command.d.ts",
+        "../node_modules/@aws-sdk/types/types/credentials.d.ts",
+        "../node_modules/@aws-sdk/types/types/crypto.d.ts",
+        "../node_modules/@aws-sdk/types/types/eventStream.d.ts",
+        "../node_modules/@aws-sdk/types/types/http.d.ts",
+        "../node_modules/@aws-sdk/types/types/logger.d.ts",
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/pagination.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts",
+        "../node_modules/@aws-sdk/types/types/serde.d.ts",
+        "../node_modules/@aws-sdk/types/types/signature.d.ts",
+        "../node_modules/@aws-sdk/types/types/transfer.d.ts",
+        "../node_modules/@aws-sdk/types/types/util.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/middleware.d.ts": [
+        "../node_modules/@aws-sdk/types/types/logger.d.ts",
+        "../node_modules/@aws-sdk/types/types/util.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/pagination.d.ts": [
+        "../node_modules/@aws-sdk/types/types/client.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/serde.d.ts": [
+        "../node_modules/@aws-sdk/types/types/http.d.ts",
+        "../node_modules/@aws-sdk/types/types/transfer.d.ts",
+        "../node_modules/@aws-sdk/types/types/util.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/signature.d.ts": [
+        "../node_modules/@aws-sdk/types/types/http.d.ts"
+      ],
+      "../node_modules/@aws-sdk/types/types/util.d.ts": [
+        "../node_modules/@aws-sdk/types/types/http.d.ts",
+        "../node_modules/@aws-sdk/types/types/middleware.d.ts",
+        "../node_modules/@aws-sdk/types/types/response.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/convertToAttr.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/marshall.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/convertToNative.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/unmarshall.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/index.d.ts": [
+        "../node_modules/@aws-sdk/util-dynamodb/types/convertToAttr.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/convertToNative.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/marshall.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/unmarshall.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/marshall.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-dynamodb/types/unmarshall.d.ts": [
+        "../node_modules/@aws-sdk/client-dynamodb/types/index.d.ts",
+        "../node_modules/@aws-sdk/util-dynamodb/types/models.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-waiter/types/createWaiter.d.ts": [
+        "../node_modules/@aws-sdk/util-waiter/types/waiter.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-waiter/types/index.d.ts": [
+        "../node_modules/@aws-sdk/util-waiter/types/createWaiter.d.ts",
+        "../node_modules/@aws-sdk/util-waiter/types/waiter.d.ts"
+      ],
+      "../node_modules/@aws-sdk/util-waiter/types/waiter.d.ts": [
+        "../node_modules/@aws-sdk/types/types/index.d.ts"
+      ],
       "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "../node_modules/@babel/types/lib/index.d.ts"
       ],

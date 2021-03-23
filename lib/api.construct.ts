@@ -10,8 +10,8 @@ export class ApiConstruct extends Construct {
     super(scope, id);
 
     const table = new Table(this, 'Table', {
-      partitionKey: { name: 'PK', type: AttributeType.STRING },
-      sortKey: { name: 'SK', type: AttributeType.STRING },
+      partitionKey: { name: 'id', type: AttributeType.STRING },
+      sortKey: { name: 'alias', type: AttributeType.STRING },
       billingMode: BillingMode.PAY_PER_REQUEST,
     });
 
