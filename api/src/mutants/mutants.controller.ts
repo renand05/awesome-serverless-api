@@ -13,8 +13,8 @@ export class MutantsController {
   constructor(private readonly mutantService: MutantsService) { }
 
   @Post()
-  create(@Body() mutantsDto: MutantsDto): MutantsDto {
-    return this.mutantService.create(mutantsDto);
+  async create(@Body() mutantsDto: MutantsDto): Promise<MutantsDto> {
+    return await this.mutantService.create(mutantsDto);
   }
 
   @Get()

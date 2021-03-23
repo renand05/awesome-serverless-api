@@ -59,4 +59,13 @@ export class MutantsDnaVerification {
         }
         return includes(this.verifyDna(this.joinDnaSequence(dnaTransposed)), true);
     }
+
+    isDnaMutant(dna: Array<string>): boolean {
+        const checksResults = [
+            this.checkDnaRows(dna),
+            this.checkDnaColumns(dna),
+            this.checkDnaDiagonals(dna)
+        ]
+        return includes(checksResults, true)
+    }
 }
