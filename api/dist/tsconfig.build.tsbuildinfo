@@ -1182,8 +1182,8 @@
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.service.ts": {
-        "version": "bbf65f2fefe888825ae92800268a5286ced34a5d9194c05b45d85db23f6f8fe4",
-        "signature": "5dd40fde8d6491529407607f4ca76fc1d8f17c7d8a00aa4f02a719c8315faf88",
+        "version": "ff1e98e7cc4f49e6184ff00039a696855840228924a82ee70d055bf0a8b187f2",
+        "signature": "5d460bdfc075b59dd59fe1d65ca535cb6fc24890e1a5c293b37aa4dd6744226d",
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.controller.ts": {
@@ -1192,7 +1192,7 @@
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.module.ts": {
-        "version": "aad38097f99481a4ab269e9a1248ddfa1bd4227610470601467042e28cc469cc",
+        "version": "e7d9a60255808f21aab1db64fdeaa8c97e3a977931a7c6d211d747620ef7da4a",
         "signature": "36491ea43e195b70b7b507ac15a5d15fd87d40843e5319ffd7247efaba21ad76",
         "affectsGlobalScope": false
       },
@@ -3447,7 +3447,6 @@
       ],
       "../src/mutants/mutants.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/node/crypto.d.ts",
         "../src/mutants/mutants.dto.ts"
       ],
       "../src/stats/stats.controller.ts": [
