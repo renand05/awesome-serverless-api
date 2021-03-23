@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { MutantsController } from './mutants.controller';
-import { MutantsService, } from './mutants.service';
-import { MutantsDnaVerification } from './mutants.verification'
+import { MutantsService } from './mutants.service';
+import { MutantsDnaVerification } from './mutants.verification';
 
 describe('MutantsController', () => {
   let mutantsController: MutantsController;
@@ -20,7 +20,7 @@ describe('MutantsController', () => {
       expect(mutantsController.get()).toBe('Hello World!');
     });
     it('should return mutant-person object', () => {
-      const body = { 'id': 'test', 'dna': ['1', '2', '3', '4'] }
+      const body = { id: 'test', dna: ['1', '2', '3', '4'] };
       expect(mutantsController.create(body)).toBe(body);
     });
   });

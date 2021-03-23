@@ -1,15 +1,14 @@
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { MutantsDto } from './mutants.dto';
-import { MutantsDnaVerification } from './mutants.verification'
+import { MutantsDnaVerification } from './mutants.verification';
 
 // import * as AWS from 'aws-sdk';
 
 // const dynamoDB = new AWS.DynamoDB.DocumentClient();
 
-
 @Injectable()
 export class MutantsService {
-  constructor(private mutantsDnaVerification: MutantsDnaVerification) { }
+  constructor(private mutantsDnaVerification: MutantsDnaVerification) {}
   get(): string {
     return 'Hello World!';
   }
