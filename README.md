@@ -22,3 +22,9 @@ The project contains two main folders:
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
 
+## Endpoints
+
+The url where the service is hosted is  https://nhvajfmh82.execute-api.us-west-2.amazonaws.com/prod/. the endpoints are:
+
+* `mutants` POST method to create a mutant
+* `stats` GET endponit to retrieve stats about the service
