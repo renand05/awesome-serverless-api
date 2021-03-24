@@ -1,4 +1,4 @@
-# Welcome to your CDK TypeScript project!
+# CDK-TypeScript-NestJS project:
 
 This is a project in TypeScript + NestJS with AWS-CDK.
 
