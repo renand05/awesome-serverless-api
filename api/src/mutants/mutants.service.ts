@@ -10,10 +10,6 @@ export class MutantsService {
     private mutantsRepository: MutantsRepository,
   ) {}
 
-  get(): string {
-    return 'Hello World!';
-  }
-
   async create(mutant: MutantsDto): Promise<MutantsDto> {
     const { dna } = mutant;
 

@@ -9,7 +9,7 @@ export class ApiConstruct extends Construct {
   constructor(scope: Construct, id: string) {
     super(scope, id);
 
-    const table = new Table(this, 'Table', {
+    const mutantsTable = new Table(this, 'Table', {
       partitionKey: { name: 'id', type: AttributeType.STRING },
       sortKey: { name: 'alias', type: AttributeType.STRING },
       billingMode: BillingMode.PAY_PER_REQUEST,
@@ -30,10 +30,10 @@ export class ApiConstruct extends Construct {
       layers: [lambdaLayer],
       environment: {
         NODE_PATH: '$NODE_PATH:/opt',
-        tableName: table.tableName,
+        tableName: mutantsTable.tableName,
       },
     });
-    table.grantReadWriteData(mutantsRestApi);
+    mutantsTable.grantReadWriteData(mutantsRestApi);
 
     const api = new LambdaRestApi(this, "mutants-api", {
       restApiName: 'Mutants API',
@@ -43,7 +43,6 @@ export class ApiConstruct extends Construct {
 
     const apiMutantsResource = api.root.addResource("mutants")
 
-    apiMutantsResource.addMethod("GET", new LambdaIntegration(mutantsRestApi));
     apiMutantsResource.addMethod("POST", new LambdaIntegration(mutantsRestApi));
 
     new CfnOutput(this, "HTTP API URL", {

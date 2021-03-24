@@ -1,4 +1,4 @@
-import { Controller, Body, Post, Get } from '@nestjs/common';
+import { Controller, Body, Post } from '@nestjs/common';
 import { MutantsService } from './mutants.service';
 import { MutantsDto } from './mutants.dto';
 
@@ -9,10 +9,5 @@ export class MutantsController {
   @Post()
   async create(@Body() mutantsDto: MutantsDto): Promise<MutantsDto> {
     return await this.mutantService.create(mutantsDto);
-  }
-
-  @Get()
-  get(): string {
-    return this.mutantService.get();
   }
 }

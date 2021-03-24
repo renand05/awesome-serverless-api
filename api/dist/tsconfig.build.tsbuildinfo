@@ -2207,17 +2207,17 @@
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.service.ts": {
-        "version": "39637090f863028488256e9d57a22e5cbeed09f70b72a7665d89b110990a4d37",
-        "signature": "902b918dfce7514cb0a8be1667e825757375ad44d59c0cf40eb86df991e06a55",
+        "version": "a48c36435a1fc5ef5a8d0b76d8b9c872092658d926aee9633fc094270b8d5625",
+        "signature": "9fcca81a81b288e51d16b68d6a0c6e0dcc2b4f2dc0d8f1e745bd1bc3c7ba1120",
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.controller.ts": {
-        "version": "a783ab5a7f40b3f892ba6e3fa90f41f8a39e34503b5242aa18b59cee11838a0e",
-        "signature": "273f5d497328f967dcaca4ab7b29318bf7d8116ea2468278dd3ad29a93478515",
+        "version": "46dd7ed6fe7f4246b2c6fdf20555d75cf86350ce24fa425bb6de6dabff5e32dc",
+        "signature": "06a3b175aae73c4a630b11c765da7d518ae4a6e445f0d4638c3c824f7ee659aa",
         "affectsGlobalScope": false
       },
       "../src/mutants/mutants.module.ts": {
-        "version": "c914bc82e0e26fbb928bd76218257d8c00d2582d7cde41b8f02755564d790ae5",
+        "version": "4472afc14eea0b57c1d12f174b61ddc20b2f17166db0a3f3c5f2d00134fa24c5",
         "signature": "36491ea43e195b70b7b507ac15a5d15fd87d40843e5319ffd7247efaba21ad76",
         "affectsGlobalScope": false
       },
@@ -5070,6 +5070,7 @@
       "../src/mutants/mutants.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/mutants/mutants.controller.ts",
+        "../src/mutants/mutants.repository.ts",
         "../src/mutants/mutants.service.ts",
         "../src/mutants/mutants.verification.ts"
       ],

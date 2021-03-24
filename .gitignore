@@ -10,3 +10,7 @@ cdk.out
 
 # vscode
 .vscode
+
+# api coverage
+
+api/coverage
