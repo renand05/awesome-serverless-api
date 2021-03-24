@@ -1,27 +1,43 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { MutantsController } from './mutants.controller';
 import { MutantsService } from './mutants.service';
+import { MutantsRepository } from './mutants.repository';
 import { MutantsDnaVerification } from './mutants.verification';
 
+export class MutantsRepositoryFake {
+  public create(): string {
+    return '';
+  }
+}
+
 describe('MutantsController', () => {
-  let mutantsController: MutantsController;
+  let mutantsService: MutantsService;
 
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
       controllers: [MutantsController],
-      providers: [MutantsService, MutantsDnaVerification],
+      providers: [
+        MutantsService,
+        MutantsDnaVerification,
+        {
+          provide: MutantsRepository,
+          useClass: MutantsRepositoryFake,
+        },
+      ],
     }).compile();
 
-    mutantsController = app.get<MutantsController>(MutantsController);
+    mutantsService = app.get<MutantsService>(MutantsService);
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(mutantsController.get()).toBe('Hello World!');
-    });
-    it('should return mutant-person object', () => {
-      const body = { id: 'test', dna: ['1', '2', '3', '4'] };
-      expect(mutantsController.create(body)).toBe(body);
+    it('should return mutant-person object', async () => {
+      const body = {
+        id: undefined,
+        alias: 'test',
+        dna: ['AAAAAA', 'AAAAAAA', 'AAAAAA', 'AAAAAA'],
+      };
+      const response = await mutantsService.create(body);
+      expect(response).toBe(body);
     });
   });
 });

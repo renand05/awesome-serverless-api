@@ -1,18 +1,15 @@
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { MutantsDto } from './mutants.dto';
 import { MutantsDnaVerification } from './mutants.verification';
-
-import { DynamoDB } from '@aws-sdk/client-dynamodb';
-import { marshall, unmarshall } from "@aws-sdk/util-dynamodb";
-
-
-const client = new DynamoDB({ region: "us-west-2" });
-const TableName = process.env.tableName;
-
+import { MutantsRepository } from './mutants.repository';
 
 @Injectable()
 export class MutantsService {
-  constructor(private mutantsDnaVerification: MutantsDnaVerification) { }
+  constructor(
+    private mutantsDnaVerification: MutantsDnaVerification,
+    private mutantsRepository: MutantsRepository,
+  ) {}
+
   get(): string {
     return 'Hello World!';
   }
@@ -21,14 +18,13 @@ export class MutantsService {
     const { dna } = mutant;
 
     mutant.id = dna.join('').toLowerCase();
-    mutant.alias = mutant.alias
+    mutant.alias = mutant.alias;
     mutant.isMutant = this.mutantsDnaVerification.isDnaMutant(dna);
     try {
-      const Item = marshall(mutant);
-      const data = await client.putItem({ TableName, Item });
+      await this.mutantsRepository.create(mutant);
       return mutant;
     } catch (err) {
-      throw err
+      throw err;
     }
   }
 }
